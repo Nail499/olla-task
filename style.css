@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 32px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  padding: 20px 0;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.288);
+  background-color: white;
+  position: fixed;
+}
+nav .list ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+nav .list ul li:hover {
+  color: #2845BA;
+  cursor: pointer;
+  transition: 0.3s;
+}
+nav .btn button {
+  width: 100%;
+  padding: 12px 25px;
+  background-color: #2845BA;
+  color: white;
+  border: 1px solid #2845BA;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 17px;
+}
+nav .btn button:hover {
+  background-color: white;
+  color: #2845BA;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.s1 {
+  width: 100%;
+  margin: auto;
+  padding: 90px 0;
+}
+.s1 .main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s1 .main .text {
+  width: 40%;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.s1 .main .text h3 {
+  color: #2845BA;
+  font-size: 15px;
+}
+.s1 .main .text h1 {
+  color: #041735;
+  font-size: 43px;
+  font-weight: bold;
+  line-height: 50px;
+}
+.s1 .main .text p {
+  color: #041735;
+  font-size: 25px;
+}
+.s1 .main .text .input {
+  width: 100%;
+  font-size: 20px;
+}
+.s1 .main .text .input input {
+  width: 50%;
+  padding: 20px;
+  border-right: none;
+  border: 1px solid #2845BA;
+  font-size: 18px;
+}
+.s1 .main .text .input button {
+  width: 40%;
+  padding: 20px;
+  background-color: #2845BA;
+  color: white;
+  border: 1px solid #2845BA;
+  font-size: 18px;
+}
+.s1 .main .img {
+  width: 50%;
+}
+.s1 .main .img img {
+  width: 100%;
+}
+
+.s2 {
+  width: 100%;
+}
+.s2 .s2-in {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.s2 .s2-in .main {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.s2 .s2-in .main h1 {
+  font-size: 36px;
+  color: #041735;
+  font-weight: bold;
+}
+.s2 .s2-in .main p {
+  font-size: 17px;
+  color: #656565;
+}
+.s2 .s2-in .boxes {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.s2 .s2-in .boxes .box1 {
+  width: 28%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 25px;
+}
+.s2 .s2-in .boxes .box1 h1 {
+  color: #041735;
+}
+.s2 .s2-in .boxes .box1 p {
+  font-size: 18px;
+  color: #656565;
+}
+.s2 .s2-in .boxes .box1 .img {
+  width: 24%;
+}
+.s2 .s2-in .boxes .box1 .img img {
+  width: 100%;
+}
+
+.s3 {
+  width: 100%;
+}
+.s3 .s3-in {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 70px 0;
+}
+.s3 .s3-in .img {
+  width: 50%;
+}
+.s3 .s3-in .img img {
+  width: 100%;
+}
+.s3 .s3-in .text {
+  width: 36%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.s3 .s3-in .text h1 {
+  color: #041735;
+  font-size: 40px;
+}
+.s3 .s3-in .text .box1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  border-bottom: 0.5px solid rgba(101, 101, 101, 0.2470588235);
+  padding-bottom: 15px;
+}
+.s3 .s3-in .text .box1 h1 {
+  font-size: 20px;
+}
+.s3 .s3-in .text .box1 P {
+  color: #656565;
+}
+
+footer {
+  width: 100%;
+  background-color: #041735;
+}
+footer .footer-in {
+  width: 100%;
+  padding: 60px 0;
+}
+footer .footer-in .up {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+footer .footer-in .up .btn {
+  width: 12%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+footer .footer-in .up .btn button {
+  width: 100%;
+  padding: 15px 14px;
+  font-size: 15px;
+  background-color: #2845BA;
+  color: white;
+  border: 1px solid #2845BA;
+  border-radius: 6px;
+  font-weight: 500;
+}
+footer .footer-in .up .btn button:hover {
+  background-color: transparent;
+  color: #2845BA;
+  transition: 0.3s;
+}/*# sourceMappingURL=style.css.map */
